@@ -25,7 +25,7 @@ impl NumberPair {
 }
 
 fn load_string() -> String {
-    fs::read_to_string("input/input.txt").expect("Unable to read file")
+    fs::read_to_string("input/input_day_1.txt").expect("Unable to read file")
 }
 fn parse_to_string_pairs(input_string: String) -> Vec<ListStringPair> {
     let mut left_side: Vec<u8> = vec![];

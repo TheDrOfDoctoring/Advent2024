@@ -1,7 +1,8 @@
 
 mod day1;
+mod day2;
 
 fn main() {
-    let day1: i32 = day1::get_answer_part_two();
-    println!("{}", day1);
+    let day2: i32 = day2::get_answer_part_two();
+    println!("{}", day2);
 }
